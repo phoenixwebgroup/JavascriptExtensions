@@ -60,10 +60,14 @@
     <Content Include="src\trades\OptionSpec.js" />
     <Content Include="src\financial.js" />
     <Content Include="src\trades\Option.js" />
+    <Content Include="src\trades\SwapSpec.js" />
     <Content Include="src\trades\trades.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lib\jasmine-1.0.2\MIT.LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\trades\Swap.js" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
