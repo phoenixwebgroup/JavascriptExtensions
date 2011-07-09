@@ -56,17 +56,14 @@
     <Content Include="lib\jasmine-1.0.2\jasmine-html.js" />
     <Content Include="lib\jasmine-1.0.2\jasmine.css" />
     <Content Include="lib\jasmine-1.0.2\jasmine.js" />
-    <Content Include="spec\Options\OptionSpec.js" />
-    <Content Include="spec\SpecRunner.html" />
+    <Content Include="specs\SpecRunner.html" />
+    <Content Include="src\trades\OptionSpec.js" />
     <Content Include="src\financial.js" />
     <Content Include="src\trades\Option.js" />
     <Content Include="src\trades\trades.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lib\jasmine-1.0.2\MIT.LICENSE" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="spec\Options\OffsetCalculatorSpec.js" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
