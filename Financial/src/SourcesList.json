@@ -1,0 +1,6 @@
+[
+	"financial.js",
+	"trades/trades.js",
+	"trades/Option.js",
+	"trades/Swap.js"
+]
